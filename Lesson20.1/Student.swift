@@ -12,7 +12,7 @@ class Student {
     var female: String
     var grade: Double
     
-    init(_ name: String, _ female: String, _ grade: Double) {
+    init(name: String, female: String, grade: Double) {
         self.name = name
         self.female = female
         self.grade = grade

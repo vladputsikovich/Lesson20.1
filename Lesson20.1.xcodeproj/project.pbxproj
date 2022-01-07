@@ -14,6 +14,8 @@
 		ED5CF0B62780752200154787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5CF0B52780752200154787 /* Assets.xcassets */; };
 		ED5CF0B92780752200154787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5CF0B72780752200154787 /* LaunchScreen.storyboard */; };
 		ED6063CD2781EA8F002AF657 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6063CC2781EA8F002AF657 /* Student.swift */; };
+		EDB95E412788983700ABFBD5 /* SrudentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB95E402788983700ABFBD5 /* SrudentSection.swift */; };
+		EDB95E432788986C00ABFBD5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB95E422788986C00ABFBD5 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		ED5CF0B82780752200154787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5CF0BA2780752200154787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6063CC2781EA8F002AF657 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EDB95E402788983700ABFBD5 /* SrudentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrudentSection.swift; sourceTree = "<group>"; };
+		EDB95E422788986C00ABFBD5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				ED5CF0AC2780752000154787 /* AppDelegate.swift */,
 				ED5CF0AE2780752000154787 /* SceneDelegate.swift */,
 				ED5CF0B02780752000154787 /* ViewController.swift */,
+				EDB95E422788986C00ABFBD5 /* Color.swift */,
+				EDB95E402788983700ABFBD5 /* SrudentSection.swift */,
 				ED6063CC2781EA8F002AF657 /* Student.swift */,
 				ED5CF0B22780752000154787 /* Main.storyboard */,
 				ED5CF0B52780752200154787 /* Assets.xcassets */,
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB95E412788983700ABFBD5 /* SrudentSection.swift in Sources */,
 				ED5CF0B12780752000154787 /* ViewController.swift in Sources */,
 				ED5CF0AD2780752000154787 /* AppDelegate.swift in Sources */,
 				ED5CF0AF2780752000154787 /* SceneDelegate.swift in Sources */,
 				ED6063CD2781EA8F002AF657 /* Student.swift in Sources */,
+				EDB95E432788986C00ABFBD5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
